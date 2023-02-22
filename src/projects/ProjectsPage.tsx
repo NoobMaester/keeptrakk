@@ -1,7 +1,7 @@
 
 import ProjectList from "./ProjectList";
 import { Project } from "./Project";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { projectAPI } from "./projectAPI";
 
 const ProjectsPage = () => {
